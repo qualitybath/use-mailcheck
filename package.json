@@ -1,0 +1,50 @@
+{
+  "name": "@qb/use-mailcheck",
+  "version": "1.0.0",
+  "description": "React component for suggesting emails",
+  "main": "dist/index.js",
+  "module": "dist/use-mailcheck.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qualitybath/use-mailcheck"
+  },
+  "bugs": "https://github.com/qualitybath/use-mailcheck/issues",
+  "keywords": [
+    "react",
+    "mailcheck"
+  ],
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "dependencies": {
+    "mailcheck": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/mailcheck": "^1.1.31",
+    "@types/react": "^16.8.22",
+    "husky": "^2.7.0",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1",
+    "react": "^16.8.6",
+    "tsdx": "^0.7.2",
+    "tslib": "^1.10.0",
+    "typescript": "^3.5.2"
+  }
+}
