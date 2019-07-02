@@ -17,7 +17,7 @@ type TOptions = {
   distanceFunction?(s1: string, s2: string): number;
 };
 
-export default function useMailCheck({
+function useMailCheck({
   email,
   domainThreshold,
   topLevelThreshold,
@@ -56,3 +56,5 @@ export default function useMailCheck({
 
   return suggestion;
 }
+
+export { useMailCheck };
