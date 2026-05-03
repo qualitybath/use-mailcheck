@@ -11,7 +11,7 @@ yarn add @qb/use-mailcheck
 ### Usage
 
 ```jsx
-import useMailCheck from '@qb/use-mailcheck';
+import { useMailCheck } from '@qb/use-mailcheck';
 
 const [inputText, setInputText] = useState(null);
 const suggestion = useMailCheck({ email: inputText });
